@@ -5,9 +5,10 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
 }
-h1 {
+h1, p {
     white-space: nowrap;
 }
+
 .topbar {
   background: #007bff;
   padding: 15px 30px;
