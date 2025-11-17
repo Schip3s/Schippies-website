@@ -11,7 +11,7 @@ h1, p {
 
 .topbar {
   background: #007bff;
-  padding: 1rem 2rem;
+  padding: 0.5rem ;
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
@@ -23,7 +23,7 @@ h1, p {
 .topbar a, .topbar.social-icons a{
   color: white;
   font-size: 2rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
   text-decoration: none;
 }
 .topbar.title {
