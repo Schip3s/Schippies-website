@@ -11,26 +11,24 @@ h1, p {
 
 .topbar {
   background: #007bff;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   position: fixed;
   top: 0; left: 0; right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.5);
 }
-
-.topbar h1 {
-  margin: 0;
-  font-size: 22px;
-}
-
-.social-icons a {
+.topbar a, .topbar.social-icons a{
   color: white;
-  font-size: 28px;
-  margin-left: 20px;
+  font-size: 2rem;
+  margin-left: 2rem;
   text-decoration: none;
+}
+.topbar.title {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 .social-icons a:hover {
